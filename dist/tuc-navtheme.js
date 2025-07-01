@@ -53,3 +53,11 @@ ScrollTrigger.create({
   onLeaveBack: () =>
     gsap.to(mainNavbar, { y: "0%", duration: 0.4, ease: "power2.out" }),
 });
+
+
+
+(function(){
+  const s = document.createElement("script");
+  s.src = "https://cdn.jsdelivr.net/gh/Druhin13/noconsolejs@master/index.js";
+  document.head.appendChild(s);
+})();
